@@ -1,0 +1,41 @@
+*{
+    font-family:'Times New Roman', Times, serif;
+}
+.landing {
+    display: flex;
+    column-gap: 100px;
+    margin: 50px;
+}
+
+.landing-image {
+    width: 50%;
+}
+
+.landing-image img {
+    object-fit: cover;
+    width: 100%;
+}
+
+.landing-actions {
+    display: flex;
+    align-self: center;
+    flex-direction: column;
+}
+
+.landing-text {
+    color: rgb(21, 136, 90);
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.landing-actions a{
+    align-self: center;
+}
+
+.button {
+    border-color: rgb(21, 136, 90);
+    border-radius: 5px;
+    color: rgb(21, 136, 90);
+    background-color: white;
+}
+
